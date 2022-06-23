@@ -7,15 +7,10 @@
     display: none;
 }
 .app{
+    max-width: 1440px;
     width: 100%;
     height: auto;
-    margin-top: 50px;
-    padding: 30px;
     margin: 0 auto;
-    text-align: center;
-    overflow: scroll;
-    position: relative;
-    margin-top: 50px;
 }
 ::placeholder{
     color: darkgrey;
