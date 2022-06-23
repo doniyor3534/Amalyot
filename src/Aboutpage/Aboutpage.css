@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.aboutpage{
+    width: 100%;
+    height: auto;
+    background: #E5E5E5;
+}
+.aboutheader{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.aboutheader > img{
+    width: 100%;
+    height: auto;
+}
+.aboutheadertitle{
+    position: absolute;
+    top: 100px;
+    padding: 50px;
+}
+.aboutheadertitle h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    
+    /* Black */
+    
+    color: #161722;
+}
+.aboutpage .title{
+    padding: 100px 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.compasioncards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.compasioncardbody{
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+}
+.joingsection{
+    padding: 50px 10%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.joingsection h2{
+    margin:0 0 50px ;
+}
+.joingcards{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding: 0 5%;
+    margin: 20px 0;
+    gap: 15px;
+}
+.joingcards h4{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height, or 138% */
+    
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    
+    /* Black */
+    
+    color: #161722;
+    
+}
+.joingcards p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    /* Black */
+    
+    color: #161722;
+    
+    opacity: 0.78;
+}
+.timesectuion{
+    width: 100%;
+    height: auto;
+}
+.timesectuion p{
+    text-align: center;
+}
+.timesectuion h1{
+    text-align: center;
+}
+.timeseccards{
+    width: 100%;
+    padding: 50px ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+.timeseccard{
+    padding:40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F5F2F0;
+    border-radius: 7px;
+    transition: all 0.3s;
+}
+.timeseccard:hover{
+    box-shadow: #eddfd6 0px 0px 10px ;
+    transform: translate(-2px ,-2px);
+}
+.social {
+    display: flex;
+    gap: 10px;
+}
+.social svg{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* ///////////////////////////// */
+@media (max-width:450px){
+    .aboutheader > img{
+        height: 30vh;
+        object-fit: cover;
+    }
+    .aboutheadertitle h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .aboutheadertitle{
+        top: 10px;
+        padding: 25px;
+    }
+    .aboutpage .title{
+        padding: 25px 5%;
+    }
+
+    .compasioncards{
+        flex-direction: column;
+    }
+.title h1{
+    font-size: 30px;
+}
+.compasioncardbody{
+    padding: 15px;
+    margin: 25px 0;
+    width: 100%;
+    flex-direction: column;
+}
+.joingsection{
+    padding: 50px 5%;
+}
+.joingcards{
+    flex-direction: column;
+}
+.joingcardsright {
+    height: 100%;
+    width: 100%;
+}
+.joingcardsright img{
+    height: 100%;
+    width: 100%;
+}
+.timesectuion h1{
+    font-size: 30px;
+}
+.timeseccards{
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+
+
+}
