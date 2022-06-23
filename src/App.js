@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className='app'>
-           <Sermonevebt/>   
+           <Aboutpage/>  
     </div>
   );
   }

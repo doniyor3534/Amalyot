@@ -166,3 +166,49 @@
     color: grey;
     font-size: 10px;
 }
+
+/* ///////////////////////////////////////////// */
+@media (max-width:450px){
+    .sermontevent{
+        padding: 20px 5%;
+    }
+    .sermonteventheader .left span p{
+        font-size: 15px;
+    }
+    .sermonteventheader{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+    .sermonteventheader .left img{
+        width: 100%;
+
+    }
+    .right{
+        margin-top: 50px;
+    }
+
+    .sermontevent h1{
+        margin: 25px auto;
+        font-size: 30px;
+    }
+    .sermoneventcards{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+
+
+
+
+
+
+
+
+
+}

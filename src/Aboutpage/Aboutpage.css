@@ -137,3 +137,59 @@
     gap: 10px;
     cursor: pointer;
 }
+
+/* ///////////////////////////// */
+@media (max-width:450px){
+    .aboutheader > img{
+        height: 30vh;
+        object-fit: cover;
+    }
+    .aboutheadertitle h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .aboutheadertitle{
+        top: 10px;
+        padding: 25px;
+    }
+    .aboutpage .title{
+        padding: 25px 5%;
+    }
+
+    .compasioncards{
+        flex-direction: column;
+    }
+.title h1{
+    font-size: 30px;
+}
+.compasioncardbody{
+    padding: 15px;
+    margin: 25px 0;
+    width: 100%;
+    flex-direction: column;
+}
+.joingsection{
+    padding: 50px 5%;
+}
+.joingcards{
+    flex-direction: column;
+}
+.joingcardsright {
+    height: 100%;
+    width: 100%;
+}
+.joingcardsright img{
+    height: 100%;
+    width: 100%;
+}
+.timesectuion h1{
+    font-size: 30px;
+}
+.timeseccards{
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+
+
+}
