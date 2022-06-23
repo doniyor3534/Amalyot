@@ -1,0 +1,329 @@
+var sportWords = ["Реклама ҳуқуқи асосида",'Reklama huquqi asosida', 'Reklama', 'Реклама']
+var hetqContainer = document.querySelector(".single-content");
+var hetqContainerMobile = document.querySelector(".single-post-content");
+
+
+
+if(hetqContainer){
+  hetqContainerWords = hetqContainer.innerHTML;
+
+  var checkSportWords = false
+  for(i = 0; i < sportWords.length; i++){
+      if(hetqContainerWords.search(sportWords[i]) > -1){
+          console.log("Native Network");
+          checkSportWords = true;
+          break
+      }
+      else if(hetqContainerWords.search(sportWords[i]) == -1){
+          checkSportWords = false ;
+      }
+  }
+  
+  
+  
+  console.log(checkSportWords)
+  
+  
+  
+  
+  if(checkSportWords == false){
+
+
+    let rundomNumber = Math.random();
+
+    if(rundomNumber >= 0 && rundomNumber < 0.33){
+      callImplementCode({
+      "isScroll": true,
+      "noCredit": false,
+      "number": 1,
+      "ownerId": 389950,
+      "container": ".single-content p",
+      "divId1": "adfox_15087621996845972",
+      "divId2": "adfox_15087621996845975",
+      "minSymbols": 250,
+      "minSymbols2": 850,
+            "params": {
+                p1: 'csrmo',
+          p2: 'hixz'
+            },
+            "params2": {
+                p1: 'csimfewfwr',
+          p2: 'hixz'
+    
+            },
+      "inpage": true,
+      "interscroller":{
+        p1:'csrmegwwgp'
+      },
+      "inpageparams": {
+            blockId: "VI-258336-0",
+            renderTo: 'inpage_VI-258336-0-898142432',
+            p1: 'csewrgwegrmq',
+            inpage: {
+                slide: true,
+                visibleAfterInit: false,
+                adFoxUrl: "//ads.adfox.ru/389950/getCode?p1=cfdjs&p2=glbt&fmt=1&pr="+pr,
+                insertAfter: 'undefined',
+                insertPosition: '0'
+                }
+        }
+    });
+    }
+
+    else if(rundomNumber >= 0.33 && rundomNumber < 0.66){
+      callImplementCode({
+      "isScroll": true,
+      "noCredit": false,
+      "number": 1,
+      "ownerId": 389950,
+      "container": ".single-content p",
+      "divId1": "adfox_15087621996845972",
+      "divId2": "adfox_15087621996845975",
+      "minSymbols": 250,
+      "minSymbols2": 850,
+            "params": {
+                p1: 'cswergwergrmo',
+          p2: 'hixz'
+            },
+            "params2": {
+                p1: 'csimfewfwr',
+          p2: 'hixz'
+    
+            },
+      "inpage": true,
+      "interscroller":{
+        p1:'csrmp'
+      },
+      "inpageparams": {
+            blockId: "VI-258336-0",
+            renderTo: 'inpage_VI-258336-0-898142432',
+            p1: 'cewrgrsrmq',
+            inpage: {
+                slide: true,
+                visibleAfterInit: false,
+                adFoxUrl: "//ads.adfox.ru/389950/getCode?p1=cfdjs&p2=glbt&fmt=1&pr="+pr,
+                insertAfter: 'undefined',
+                insertPosition: '0'
+                }
+        }
+    });
+    }
+
+    else{
+      callImplementCode({
+      "isScroll": true,
+      "noCredit": false,
+      "number": 1,
+      "ownerId": 389950,
+      "container": ".single-content p",
+      "divId1": "adfox_15087621996845972",
+      "divId2": "adfox_15087621996845975",
+      "minSymbols": 250,
+      "minSymbols2": 850,
+            "params": {
+                p1: 'csregwrewgmo',
+          p2: 'hixz'
+            },
+            "params2": {
+                p1: 'csimfewfwr',
+          p2: 'hixz'
+    
+            },
+      "inpage": true,
+      "interscroller":{
+        p1:'csrgrwerewgmp'
+      },
+      "inpageparams": {
+            blockId: "VI-258336-0",
+            renderTo: 'inpage_VI-258336-0-898142432',
+            p1: 'csrmq',
+            inpage: {
+                slide: true,
+                visibleAfterInit: false,
+                adFoxUrl: "//ads.adfox.ru/389950/getCode?p1=cfdjs&p2=glbt&fmt=1&pr="+pr,
+                insertAfter: 'undefined',
+                insertPosition: '0'
+                }
+        }
+    });
+    }
+
+
+
+
+    
+
+  }
+}
+
+
+if(hetqContainerMobile){
+  hetqContainerMobileWords = hetqContainerMobile.innerHTML;
+
+  var checkSportWords = false
+  for(i = 0; i < sportWords.length; i++){
+      if(hetqContainerMobileWords.search(sportWords[i]) > -1){
+          console.log("Native Network");
+          checkSportWords = true;
+          break
+      }
+      else if(hetqContainerMobileWords.search(sportWords[i]) == -1){
+          checkSportWords = false ;
+      }
+  }
+  
+  
+  
+  console.log(checkSportWords)
+  
+  
+  
+  
+  if(checkSportWords == false){
+
+    let rundomNumber0 = Math.random();
+
+    if(rundomNumber0 >= 0 && rundomNumber0 < 0.33){
+      callImplementCode({
+      "isScroll": true,
+      "noCredit": false,
+      "number": 1,
+      "ownerId": 389950,
+      "container": ".single-post-content p",
+      "divId1": "adfox_15087621996845972",
+      "divId2": "adfox_15087621996845975",
+      "minSymbols": 250,
+      "minSymbols2": 850,
+            "params": {
+                p1: 'csrmo',
+          p2: 'hixz'
+            },
+            "params2": {
+                p1: 'csimfewfwr',
+          p2: 'hixz'
+    
+            },
+      "inpage": true,
+      "interscroller":{
+        p1:'csrwcwmp'
+      },
+      "inpageparams": {
+            blockId: "VI-258336-0",
+            renderTo: 'inpage_VI-258336-0-898142432',
+            p1: 'csefwfewrmq',
+            inpage: {
+                slide: true,
+                visibleAfterInit: false,
+                adFoxUrl: "//ads.adfox.ru/389950/getCode?p1=cfdjs&p2=glbt&fmt=1&pr="+pr,
+                insertAfter: 'undefined',
+                insertPosition: '0'
+                }
+        }
+    });
+    }
+    
+    else if(rundomNumber0 >= 0.33 && rundomNumber0 < 0.66){
+      callImplementCode({
+      "isScroll": true,
+      "noCredit": false,
+      "number": 1,
+      "ownerId": 389950,
+      "container": ".single-post-content p",
+      "divId1": "adfox_15087621996845972",
+      "divId2": "adfox_15087621996845975",
+      "minSymbols": 250,
+      "minSymbols2": 850,
+            "params": {
+                p1: 'csfewfewrmo',
+          p2: 'hixz'
+            },
+            "params2": {
+                p1: 'csimfewfwr',
+          p2: 'hixz'
+    
+            },
+      "inpage": true,
+      "interscroller":{
+        p1:'csrmp'
+      },
+      "inpageparams": {
+            blockId: "VI-258336-0",
+            renderTo: 'inpage_VI-258336-0-898142432',
+            p1: 'csrfwefewmq',
+            inpage: {
+                slide: true,
+                visibleAfterInit: false,
+                adFoxUrl: "//ads.adfox.ru/389950/getCode?p1=cfdjs&p2=glbt&fmt=1&pr="+pr,
+                insertAfter: 'undefined',
+                insertPosition: '0'
+                }
+        }
+    });
+    }
+    
+    else{
+      callImplementCode({
+      "isScroll": true,
+      "noCredit": false,
+      "number": 1,
+      "ownerId": 389950,
+      "container": ".single-post-content p",
+      "divId1": "adfox_15087621996845972",
+      "divId2": "adfox_15087621996845975",
+      "minSymbols": 250,
+      "minSymbols2": 850,
+            "params": {
+                p1: 'cswefwermo',
+          p2: 'hixz'
+            },
+            "params2": {
+                p1: 'csimfewfwr',
+          p2: 'hixz'
+    
+            },
+      "inpage": true,
+      "interscroller":{
+        p1:'csrfewfewmp'
+      },
+      "inpageparams": {
+            blockId: "VI-258336-0",
+            renderTo: 'inpage_VI-258336-0-898142432',
+            p1: 'csrmq',
+            inpage: {
+                slide: true,
+                visibleAfterInit: false,
+                adFoxUrl: "//ads.adfox.ru/389950/getCode?p1=cfdjs&p2=glbt&fmt=1&pr="+pr,
+                insertAfter: 'undefined',
+                insertPosition: '0'
+                }
+        }
+    });
+    }
+
+  }
+}
+
+
+
+
+// window.caramelPreroll = {
+//   prerollURL: 'https://yandex.ru/ads/adfox/389950/getCode?p1=csiqa&p2=hiyh',
+//   skip_time: 7,
+//   midroll: true,
+//   midrollURL: 'https://yandex.ru/ads/adfox/389950/getCode?p1=csiqb&p2=hiyh',
+//   mid_time: 50,
+//   mid_skip_time: 7
+// };
+
+// var caramel_preroll = document.createElement("script");
+// caramel_preroll.type = 'text/javascript';
+// caramel_preroll.src = "https://ads.prodigi.uz/preroll/dist/bundle.js" + "?ts=" + new Date().getTime();
+// document.getElementsByTagName("body")[0].appendChild(caramel_preroll);
+
+
+
+
+
+
+
+
