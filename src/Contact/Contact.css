@@ -1,0 +1,38 @@
+/*////////////////////////////////////////////// contact //////////////////////////////////////////////*/
+.church{
+    width: 100%;
+    padding-top: 50px;
+}
+.church img{
+    width: 1900px;
+}
+.form{
+    width: 100%;
+    display: flex;
+}
+.send{
+    width: 50%;
+}
+.find{
+    width: 50%;
+}
+.send input{
+    width: 300px;
+    height: 40px;   
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(223, 221, 221);
+    color: #000;
+}
+.mass{
+    width: 320px;
+    height: 45px;
+    background: #FFD2A4;
+    border-radius: 12px;
+    border: none;   
+}
+.mass:active{
+    background: #000;
+    color: white;
+    transition: .3s ease-in-out;
+}
