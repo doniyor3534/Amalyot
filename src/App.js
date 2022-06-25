@@ -8,6 +8,7 @@ import Blog from './Blog/Blog'
 import Footer from './Footer/Footer';
 import logonav from './img/logor.png'
 import { BrowserRouter as Router,Routes,Route,NavLink } from 'react-router-dom';
+import Sermonevebt from './Sermonevent/Sermonevebt';
 
 function App() {  
   return (
@@ -20,7 +21,7 @@ function App() {
                         <NavLink activclassname="selected" to='/clothes' className="nav-link">Aboutpage</NavLink>
                         <NavLink activclassname="selected" to='/shoes' className="nav-link">Sermon</NavLink>
                         <NavLink activclassname="selected" to='/acser' className="nav-link">Blog</NavLink>
-                        <button className='btn'>Contact</button>
+                        <NavLink to='/sermontevent'><button className='btn'>Contact</button></NavLink>
                     </ul>
                 </nav>
                 <Routes>
@@ -28,12 +29,19 @@ function App() {
                     <Route path='/clothes' element={<Aboutpage />} />
                     <Route path='/shoes' element={<Sermon />} />
                     <Route path='/acser' element={<Blog />} />
+                    <Route path='/sermontevent' element={<Sermonevebt />} />
                 </Routes>
          </Router>
          <Footer/>
+<<<<<<< HEAD
       
         </div>
     );
 };
 
 export default App;
+=======
+         </div>
+)}
+export default App;
+>>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a

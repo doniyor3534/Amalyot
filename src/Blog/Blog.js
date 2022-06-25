@@ -1,6 +1,9 @@
 import React from 'react'
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
 import boys from './img/boys.png'
 import './Blog.css'
 const Blog = () => {
@@ -81,7 +84,10 @@ const Blog = () => {
             </div>
         </div>
     </> 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
   )
 }
 

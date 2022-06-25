@@ -45,7 +45,7 @@ const Footer = () => {
              <div className="">
                  <h1 className='ht'>Subscribe to get Latest Updates and News</h1>
                  <br />
-                 <div className="">
+                 <div className="tr">
                      <form>
                          <input className='input' type="text" placeholder='Yourmail@gmail.com' /> 
                          <button className='btn1'>Subscribe</button>

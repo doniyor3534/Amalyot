@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 ::-webkit-scrollbar{
     display: none;
@@ -47,8 +51,9 @@ input{
 }
 
 
+=======
+>>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
 nav{
-    display: block;
     background: black;
   }
   .nav-link:hover{
@@ -56,7 +61,10 @@ nav{
   }
   ul{
     display: flex;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
     gap: 20px;
     padding: 20px;
   }
@@ -81,7 +89,6 @@ nav{
     width: 179px;
     height: 56px;
     background: #FFD2A4;
-    backdrop-filter: blur(80px);
     border-radius: 12px;
     font-style: normal;
     font-weight: 400;
@@ -95,6 +102,7 @@ nav{
   }
 
 
+<<<<<<< HEAD
 nav.active{
     left: 0;
     padding: 20px 50px;
@@ -128,3 +136,7 @@ nav button:active{
 .active{
     background-color: blue;
 }
+=======
+
+
+>>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
