@@ -1,6 +1,6 @@
 import React from 'react'
 import boys from './img/boys.png'
-
+import './Blog.css'
 const Blog = () => {
   return (
     <>

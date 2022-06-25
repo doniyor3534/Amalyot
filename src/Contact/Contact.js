@@ -1,5 +1,6 @@
 import React from 'react'
 import church from './img/church.png'
+import './Contact.css'
 const Contact = () => {
   return (
     <>
