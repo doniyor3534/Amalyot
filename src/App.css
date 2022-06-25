@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.app{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+::placeholder{
+    color: darkgrey;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+.span{
+    text-align: center;
+    font-size: 40px;
+    display: block;
+}
+button{
+    padding: 5px 15px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+}
+.paragraf{
+    transition: all 0.5s linear;
+    font: 900;
+    font-size: 50px;
+}
+.togltext{
+    font-weight: 800;
+    font-size: 55px;
+    transition: all 0.5s linear;
+}
+input{
+    padding: 15px 30px;
+}
+
+
+nav{
+    display: block;
+    background: black;
+  }
+  .nav-link:hover{
+    color: #FFD2A4;
+  }
+  ul{
+    display: flex;
+
+    gap: 20px;
+    padding: 20px;
+  }
+  .nav-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.9;
+    text-decoration: none;
+    padding: 20px;
+    transform: translateX(110px);
+  }
+  .logo{
+    transform: translateX(90px);
+    padding: 10px;
+  }
+  .btn{
+    width: 179px;
+    height: 56px;
+    background: #FFD2A4;
+    backdrop-filter: blur(80px);
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C1D28;
+    transform: translateX(500px);
+    cursor: pointer;
+  }
+
+
+nav.active{
+    left: 0;
+    padding: 20px 50px;
+}
+nav a{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: #26c962;
+    transition: all 0.5s linear;
+    margin-right:25px ;
+}
+nav a:hover{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: #080909;
+}
+nav button{
+    padding: 10px 25px;
+    background: #7BC0E3;
+    border-radius: 1000px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s linear;
+}
+nav button:active{
+     background-color: #799cad;
+}
+.active{
+    background-color: blue;
+}
