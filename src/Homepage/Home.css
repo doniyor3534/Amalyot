@@ -65,7 +65,14 @@ body{
   display: grid;
   grid-template-columns: repeat(3,auto);
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
+  margin-top: 50px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  justify-content: center;
+  gap: 20px;
   margin-top: 90px;
 }
 .card-body{
@@ -73,6 +80,13 @@ body{
   height: 380px;
   right: 979px;
   top: 1034px;
+  background: #FFF5EB;
+  border-bottom: 15px solid #FFD2A4 ;
+}
+.card-bodys   {
+  width: 302px;
+  height: 367px;
+  padding: 20px;
   background: #FFF5EB;
   border-bottom: 15px solid #FFD2A4 ;
 }
@@ -376,4 +390,86 @@ body{
 }
 .atf{
   transform: translateY(-450px);
+}
+.box11{
+  transform: translateY(-350px);
+}
+.cardsultan{
+  width: 1570px;
+  height: 736px;
+  background: url(../img/sultan.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardsul{
+  width: 750px;
+  height: 450px; 
+  padding-top: 200px;
+  background: white;
+  border-bottom: 15px solid #FFD2A4 ;
+  transform: translateY(130px);
+}
+.tty{
+  transform: translateX(450px);
+}
+.n5{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  margin-left: 50px;
+}
+.nima{
+  transform: translateY(-150px);
+}
+.n6{
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+}
+.brt{
+  width:162px;
+  height: 64px;
+  background: #FFD2A4;
+  border-radius: 12px;
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1C1D28;
+  cursor: pointer;
+}
+.n10{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.n11{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+}
+.box12{
+  transform: translateY(-250px);
 }

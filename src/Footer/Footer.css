@@ -6,7 +6,7 @@
 }
 .ota{
     background: black;
-    padding: 40px;
+    padding: 50px;
     display: flex;
     gap: 200px;
 }
@@ -61,6 +61,6 @@
       display: flex;
       gap: 20px;
   }
-  .tr{
-      display: flex;
-  }
+ .ni{
+     display: flex;
+ }

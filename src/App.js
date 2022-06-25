@@ -33,15 +33,12 @@ function App() {
                 </Routes>
          </Router>
          <Footer/>
-<<<<<<< HEAD
+
       
         </div>
     );
 };
 
 export default App;
-=======
-         </div>
-)}
-export default App;
->>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
+
+

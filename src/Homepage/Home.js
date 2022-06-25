@@ -26,7 +26,41 @@ const Home = () => {
       name:'Giving back',
       text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     }
-  ])  
+  ]);
+  const[ret,setRet] = useState([
+    {
+      id:0,
+      tex1:'Relationship',
+      name:'WATCH AND LISTEN TO OUR SERMONS',
+      par:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      poet:'By Mathew Johnson',
+      day:'Tuesday 13 May, 2021'
+    },
+    {
+      id:1,
+      tex1:'Relationship',
+      name:'WATCH AND LISTEN TO OUR SERMONS',
+      par:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      poet:'By Mathew Johnson',
+      day:'Tuesday 13 May, 2021'
+    },
+    {
+      id:2,
+      tex1:'Relationship',
+      name:'WATCH AND LISTEN TO OUR SERMONS',
+      par:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      poet:'By Mathew Johnson',
+      day:'Tuesday 13 May, 2021'
+    },
+    {
+      id:3,
+      tex1:'Relationship',
+      name:'WATCH AND LISTEN TO OUR SERMONS',
+      par:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+      poet:'By Mathew Johnson',
+      day:'Tuesday 13 May, 2021'
+    }
+  ])
   return (
     <div>
       <div className="box">
@@ -152,6 +186,44 @@ const Home = () => {
       </div>
       <div className="atf">
         <a className='ata' href="">View all Sermons →</a>
+      </div>
+      <div className="box11">
+        <div className="cardsultan">
+         <div className="tty">
+         <div className="cardsul">
+          <div className="nima">
+          <h1 className='n5'>We want to <br /> serve the world <br /> around us</h1>
+          <br />
+           <p className='n6'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do.</p>
+           <br />
+           <button className='brt'>Visit</button>
+          </div>
+         </div>
+         </div>
+        </div>
+      </div>
+      <div className="box12">
+        <div className="">
+          <p className='web'>Read our Blog</p>
+          <h1 className='wev'>SHARE, INSPIRE, INNOVATE</h1>
+        </div>
+        <div className="cards">
+          {
+            ret.map((val)=>(
+             <div className="card-bodys">
+               <p className='n10'>{val.tex1}</p>
+               <br />
+               <h3 className='n11'>{val.name}</h3>
+               <br />
+               <p>{val.par}</p>
+               <br />
+               <br />
+               <p>{val.poet}</p>
+               <p>{val.day}</p>
+             </div>
+            ))
+          }
+        </div>
       </div>
     </div>
   )

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
 import React from 'react';
 import '../Aboutpage/Aboutpage.css'
 
@@ -137,7 +133,4 @@ const Aboutpage = () => {
 };
 
 export default Aboutpage;
-<<<<<<< HEAD
 
-=======
->>>>>>> 05b7e1733092a63046aeb8a47f9e0e93d364160a
