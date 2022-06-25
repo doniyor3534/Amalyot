@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import './Home.css'
 import jas from '../img/Jasur.png';
+import cir from '../img/circle.png';
+import cirk from '../img/clock.png';
 import qiz from '../img/qiz.png';
 import acha from '../img/acha.png';
+import angel from '../img/angel.png'
 const Home = () => {
   const[get,setGet] = useState([
     {
@@ -90,6 +93,65 @@ const Home = () => {
            <a className='at' href="">Read More →</a>
          </div>
          </div>
+      </div>
+      <div className="box6">
+        <div className="">
+          <p className='web'>Watch and listen</p>
+          <h1 className='wev'>THE benefits of <br /> joining our church</h1>
+        </div>
+        <div className="ras">
+          <div className="doya">
+            <h3 className='tet'>WATCH AND LISTEN TO <br /> OUR SERMONS</h3>
+            <p className='teo'>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut.</p>
+          </div>
+          <div className="k">
+            <h3 className='te'>WATCH AND LISTEN TO <br /> OUR SERMONS</h3>
+          </div>
+          <div className="pa">
+             <h3 className='te'>WATCH AND LISTEN TO <br /> OUR SERMONS</h3>
+          </div>
+          <div className="hay">
+          <h3 className='te'>WATCH AND LISTEN TO <br /> OUR SERMONS</h3>
+          </div>
+        </div>
+      </div>
+      <div className="box7">
+        <div>
+          <p className='web'>Upcoming SERMONS</p>
+          <h1 className='wev'>join us and become part <br /> of something great</h1>
+        </div>
+        <div className="box8">
+          <div className="bor">
+            <div className="n1">
+              <h4 className='us4'>Upcoming Event</h4>
+              <br />
+              <h2 className='us2'>WATCH AND LISTEN <br /> TO OUR SERMONS</h2>
+              <br />
+              <p className='n2'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor.</p>
+              <br />
+              <div className="dex">
+                <img src={cirk} alt="" />
+                <p>Friday 23:39 IST Saturday 11:20 ISD</p>
+              </div>
+              <br />
+              <div className="dex">
+                <img src={cir} alt="" />
+                <p>No 233 Main St. New York, United States</p>
+              </div>
+              <br />
+              <br />
+              <div className="">
+                <button className='btn8'>Register</button>
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <img src={angel} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="atf">
+        <a className='ata' href="">View all Sermons →</a>
       </div>
     </div>
   )

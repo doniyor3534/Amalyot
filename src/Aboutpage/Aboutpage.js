@@ -1,21 +1,5 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Aboutpage = () => {
-  return (
-    <div>Aboutpage</div>
-  )
-}
-
-export default Aboutpage
-=======
 import React from 'react';
 import '../Aboutpage/Aboutpage.css'
-
-
-
-
-
 
 const Aboutpage = () => {
     const cardmas = [
@@ -149,4 +133,3 @@ const Aboutpage = () => {
 };
 
 export default Aboutpage;
->>>>>>> 840296252e9569ab4d7493507a12c1b16695ece4

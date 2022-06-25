@@ -27,13 +27,8 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
-    /* identical to box height, or 133% */
-    
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    
-    /* Black */
-    
     color: #161722;
 }
 .aboutpage .title{

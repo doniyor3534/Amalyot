@@ -61,3 +61,6 @@
       display: flex;
       gap: 20px;
   }
+  .tr{
+      display: flex;
+  }

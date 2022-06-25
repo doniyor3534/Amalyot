@@ -1,10 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-
-const Blog = () => {
-  return (
-    <div>Blog</div>
-=======
 import boys from './img/boys.png'
 
 const Blog = () => {
@@ -85,7 +79,6 @@ const Blog = () => {
             </div>
         </div>
     </> 
->>>>>>> 840296252e9569ab4d7493507a12c1b16695ece4
   )
 }
 
